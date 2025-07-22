@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
     outline: none;
-    scroll-behavior: auto;
-    font-family: "Poppins";
-
+    font-family: "Poppins", sans-serif;
 }
-html{
+
+html {
     font-size: 60%;
-    overflow: hidden;
+    overflow: auto; /* Enable scrolling */
+    scroll-behavior: smooth; /* Optional: For smooth scrolling */
 }
 :root{
     --bg-color: black;
